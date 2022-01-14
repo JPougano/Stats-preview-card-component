@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+
+@media screen and (max-width:1000px){
+    *{
+        padding: 0px;
+        margin:0px;
+    }
+
+    body{
+        background-color: hsl(233, 47%, 7%);
+    }
+
+    .image-block{
+        width: 350px;
+        height: 200px;
+        background-color: azure;
+        margin: 20% auto 0 auto;
+    }
+
+    .data-container{
+        width: 350px;
+        height: auto;
+        margin: 0px auto 20px auto;
+        background-color: hsl(244, 38%, 16%);
+        display: flex;
+        flex-direction: column;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+    }
+
+
+    .layer,.mobile-image{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .layer{
+        width: 350px;
+        height: 200px;
+        background-color: hsl(277, 64%, 61%);
+        position: absolute;
+        opacity: 0.2;
+    }
+
+    .mobile-image{
+        width: 350px;
+        height: 200px;
+    }
+
+    .desktop-image{
+        display: none;
+    }
+
+    .content-block{
+        width: 350px;
+        height: auto;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    h1{
+        color: hsl(0, 0%, 100%);
+        margin: 20px;
+    }
+
+    span{
+        color: hsl(277, 64%, 61%);
+    }
+
+    .product-description{
+        color: hsla(0, 0%, 100%, 0.75);
+        margin: 20px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    ul{
+        margin: 30px;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    li:first-child{
+        color: hsl(0, 0%, 100%);
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    li:last-child{
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+}
+
+
+@media screen and (min-width:1000px){
+    *{
+        padding: 0px;
+        margin:0px;
+    }
+
+    body{
+        background-color: hsl(233, 47%, 7%);
+    }
+
+    .full-content{
+        margin: 100px auto;
+        display: inline-flex;
+        flex-direction: row-reverse;
+    }
+
+    .image-block{
+        width: 500px;
+        height: 400px;
+        background-color: azure;
+        margin: 10% 10% 0px auto;
+    }
+
+    .data-container{
+        width: 500px;
+        height: 400px;
+        margin: 10% 0px 0px 300px;
+        background-color: hsl(244, 38%, 16%);
+        display: flex;
+        flex-direction: row;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+    }
+
+
+    .layer,.desktop-image{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .layer{
+        width: 500px;
+        height: 400px;
+        background-color: hsl(277, 64%, 61%);
+        position: absolute;
+        opacity: 0.2;
+    }
+
+    .mobile-image{
+        display: none;
+    }
+
+    .desktop-image{
+        width: 500px;
+        height: 400px;
+    }
+
+    .content-block{
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+        padding: 0px 20px 20px 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 45px;
+    }
+
+    h1{
+        color: hsl(0, 0%, 100%);
+        margin: 20px;
+        padding: 0px 40px;
+        text-align: left;
+    }
+
+    span{
+        color: hsl(277, 64%, 61%);
+    }
+
+    .product-description{
+        color: hsla(0, 0%, 100%, 0.75);
+        margin: 20px;
+        font-size: 15px;
+        line-height: 22px;
+        padding: 0px 40px;
+        text-align: left;
+    }
+
+    .metrics-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ul{
+        margin: 30px;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    li:first-child{
+        color: hsl(0, 0%, 100%);
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    li:last-child{
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+}
